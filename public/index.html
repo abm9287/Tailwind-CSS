@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Pagina </title>
+</head>
+
+<body>
+    <div>
+
+        <!---------------------------------------------------------------->
+        
+    
+        <div>
+            <header class="flex flex-col justify-between items-center px-6 py-2 bg-white dark:bg-gray-800 sm:flex-row">
+                <a href="#" class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Brand</a>
+                
+                <p class="py-2 text-gray-800 dark:text-white sm:py-0">All rights reserved</p>
+        
+                <div class="flex -mx-2">
+                    <a href="#" class="mx-2 text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" aria-label="Linkden">
+                        <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                            <path d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z"/>
+                        </svg>
+                    </a>
+        
+                    <a href="#" class="mx-2 text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" aria-label="Facebook">
+                        <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                            <path d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z"/>
+                        </svg>
+                    </a>
+        
+                    <a href="#" class="mx-2 text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" aria-label="Twitter">
+                        <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                            <path d="M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </header>
+        </div>
+
+        <nav class="bg-white px-8 pt-2 shadow-md">
+            <div class="-mb-px flex justify-center">
+                <a class="no-underline text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+                    Home
+                </a>
+                <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+                    Products
+                </a>
+                <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+                    Discounts
+                </a>
+                <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3" href="#">
+                    Customers
+                </a>
+            </div>
+        </nav>
+
+        
+
+
+
+        <!---------------------------------------------------------------->
+        <div class="carousel relative flex fixed shadow-2xl bg-white">
+            <div class="carousel-inner relative overflow-hidden w-full">
+                <!--Slide 1-->
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                    <div class="block h-full w-full bg-indigo-500 text-white text-5xl text-center">Tu apoyo da
+                        acceso a clases virtuales</div>
+                </div>
+                <label for="carousel-3"
+                    class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                <label for="carousel-2"
+                    class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                <!--Slide 2-->
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                    <div class="block h-full w-full bg-orange-500 text-white text-5xl text-center">Contribuye al
+                        aprendizaje de estudiantes de institutos superiores </div>
+                </div>
+                <label for="carousel-1"
+                    class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                <label for="carousel-3"
+                    class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                <!--Slide 3-->
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                    <div class="block h-full w-full bg-green-500 text-white text-5xl text-center">Muchos estudiantes
+                        fueron afectados tras la pandemia por el covid 19 y tambien sus familias</div>
+                </div>
+                <label for="carousel-2"
+                    class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                <label for="carousel-1"
+                    class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                <!-- Add additional indicators for each slide-->
+                <ol class="carousel-indicators">
+                    <li class="inline-block mr-3">
+                        <label for="carousel-1"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                    <li class="inline-block mr-3">
+                        <label for="carousel-2"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                    <li class="inline-block mr-3">
+                        <label for="carousel-3"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+
+
+
+        <div class="container relative flex fixed w-full items-center text-center ">
+
+            <div class=" mx-auto my-auto px-6 py-16 text-align text-center">
+                <div class="md:flex items-center ">
+                    <div class="w-full">
+                        <div class="max-w-lg ">
+                            <h1 class="text-gray-800 dark:text-white text-2xl font-semibold uppercase md:text-3xl ">
+                                ¿Qué es Nur Tech?</h1>
+                            <p class="mt-2 text-gray-600 dark:text-gray-400">A causa del COVID 19, con el objetivo
+                                de precautelar la salud de estudiantes y docentes, las autoridades determinaron el
+                                cambio de modalidad educativa de presencial a virtual. En consecuencia, muchas
+                                familias se enfrentaron a esta nueva situación no siempre contando con computadores
+                                en sus hogares.
+
+                                NUR TECH es un proyecto que tiene como objetivo entregar computadores refaccionados
+                                a estudiantes de Institutos Tecnológicos Superiores de Quito y sus familias que al
+                                momento no disponen de equipos propios.
+
+                                El proyecto es gestionado por un grupo de voluntarios que son docentes del IST
+                                Benito Juárez y activistas locales.
+
+                                Nuestro proceso tiene tres pasos: recolectar,acondicionar y entregar. En el primer
+                                paso nos ponemos en contacto con las personas que desean donar equipos, y se define
+                                una cita para recolectar el equipo a domicilio; como segundo paso todos los equipos
+                                son acondicionados: se borran sus discos duros, se revisan los componentes, se
+                                cambian partes y piezas si hace falta. Finalmente se hace la entrega del computador
+                                refaccionado en el domicilio del estudiante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mx-auto px-6 py-16 lg m-auto text-center">
+            <div class="md sm lg m-auto items-center ">
+                <div class="max-w-xl-lg ">
+
+
+                    <h2 class="text-gray-800 dark:text-white text-2xl font-semibold uppercase md:text-3xl">¿Cómo
+                        puedo
+                        ayudar?
+                    </h2>
+
+                    <p class="mt-2 text-gray-600 dark:text-gray-400">Buscamos computadores
+                        usados, partes y repuestos para entregarlos a estudiantes del IST YAVIRAC que no
+                        disponen al momento de equipos propios</p>
+                </div>
+
+                <div class="  h-cover md:w cover md:h-cover  relative flex fixed">
+                    <div class="gatsby-image-wrapper" style="position:relative">
+                        <div style="width:100%;padding-bottom:100%"></div>
+                        <img aria-hidden="true" src="../ekko true damage.jpg" alt="Avatar"
+                            style="position:absolute;top:200px;left:100px; width:52%; height:50%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;" />
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <a class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+                href="index (copy).html">
+                <span>Donar</span>
+            </a>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-gray-800 pt-10 sm:mt-10 pt-10 center">
+        <div class="md sm lg m-auto text-gray-800 flex flex-wrap justify-left  ">
+            <!-- Col-1 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    Participa con nosotros
+                </div>
+
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Dirección: Ambato y Garcia Moreno, Campus IST YAVIRAC
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Teléfono : (593) 999 705 620
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Email : probayo@yavirac.edu.ec
+                </a>
+
+            </div>
+
+            <!-- Col-2 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    LINKS DE INTERÉS
+                </div>
+
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    IST YAVIRAC
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Conoce al equipo
+                </a>
+
+            </div>
+
+            <!-- Col-3 -->
+
+
+            <!-- Col-3 -->
+
+        </div>
+
+        <!-- Copyright Bar -->
+        <div class="pt-2">
+            <div class="flex pb-5 px-3 m-auto pt-5 
+            border-t border-gray-500 text-gray-400 text-sm 
+            flex-col md:flex-row max-w-6xl">
+                <div class="mt-2">
+                    © 2021 PROYECTO NUR TECH.
+                </div>
+
+                <!-- Required Unicons (if you want) -->
+                <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-youtube"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+<style>
+    .carousel-open:checked+.carousel-item {
+        position: static;
+        opacity: 100;
+    }
+
+    .carousel-item {
+        -webkit-transition: opacity 0.6s ease-out;
+        transition: opacity 0.6s ease-out;
+    }
+
+    #carousel-1:checked~.control-1,
+    #carousel-2:checked~.control-2,
+    #carousel-3:checked~.control-3 {
+        display: block;
+    }
+
+    .carousel-indicators {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 2%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 10;
+    }
+
+    #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+    #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+    #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+        color: #2b6cb0;
+        /*Set to match the Tailwind colour you want the active one to be */
+    }
+</style>

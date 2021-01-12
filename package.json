@@ -1,0 +1,20 @@
+{
+  "name": "tarea_tedwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
